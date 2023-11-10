@@ -681,7 +681,7 @@ class _MarkerClusterLayerState extends State<MarkerClusterLayer>
       final zoomTween =
           Tween<double>(begin: widget.mapCamera.zoom, end: dest.zoom);
 
-            final animation = CurvedAnimation(
+      final animation = CurvedAnimation(
           parent: _fitBoundController,
           curve: widget.options.animationsOptions.fitBoundCurves);
 
